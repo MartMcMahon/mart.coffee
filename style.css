@@ -1,0 +1,118 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+
+  h3 {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  .block {
+    background-color: #fdfdfd;
+    margin: 5px auto;
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+.hello {
+  font-size: 0.9em;
+}
+.name {
+  font-family: Verdana;
+  font-size: 2em;
+  margin: 10px;
+}
+
+.main {
+  background-color: #fdfdfd;
+  margin: 0 auto;
+  width: 80%;
+  padding: 15px;
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+  }
+}
+
+.work-experience {
+  h1 {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul li {
+    position: relative;
+    padding-left: 20px; /* Add space for the custom bullet */
+  }
+  ul li::before {
+    content: "・"; /* Custom character */
+    position: absolute;
+    left: 0;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+}
+
+.brew-methods {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 4px;
+  }
+  ul li::before {
+    content: "º"; /* Custom character */
+    position: absolute;
+    left: 0;
+  }
+  li div {
+    font-size: 0.8em;
+  }
+}
+
+.contact {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 4px;
+  }
+  ul li::before {
+    content: "※";
+    position: absolute;
+    left: 0;
+  }
+}
